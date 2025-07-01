@@ -9,8 +9,8 @@ from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.primitives.asymmetric import padding as asym_padding
 import os
 
-API_KEY          = "97970105-48d7-4f7b-a7ea-44dbace20ded"
-PRIVATE_KEY_PATH = r"C:\Users\cal3p\OneDrive\Documents\kalshi.pem"
+API_KEY          = ""
+PRIVATE_KEY_PATH = r""
 REST_HOST        = "https://api.elections.kalshi.com"
 PAGE_SIZE        = 500
 
