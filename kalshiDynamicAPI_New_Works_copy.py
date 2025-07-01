@@ -51,7 +51,7 @@ msg_string = timestamp_str + method + "/trade-api/ws/v2"
 sig = sign_pss_text(private_key, msg_string)  # Sign the request
 
 request_headers = {
-    "KALSHI-ACCESS-KEY": "97970105-48d7-4f7b-a7ea-44dbace20ded",
+    "KALSHI-ACCESS-KEY": "",
     "KALSHI-ACCESS-SIGNATURE": sig,
     "KALSHI-ACCESS-TIMESTAMP": timestamp_str
 }
