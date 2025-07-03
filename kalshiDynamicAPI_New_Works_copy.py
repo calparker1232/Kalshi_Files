@@ -41,7 +41,7 @@ def sign_pss_text(private_key: rsa.RSAPrivateKey, text: str) -> str:
 current_time_milliseconds = int(datetime.datetime.now(datetime.UTC).timestamp() * 1000)
 timestamp_str = str(current_time_milliseconds)
 
-private_key_path = r"C:\Users\cal3p\OneDrive\Documents\kalshi.pem"
+private_key_path = 
 private_key = load_private_key_from_file(private_key_path)  # Load RSA key
 
 method = "GET"
