@@ -47,7 +47,7 @@ def load_parquet_data():
     global parquet_data, parquet_tickers
     
     try:
-        parquet_file_path = r"C:\Users\cal3p\OneDrive\Desktop\Max_Desktop\Kalshi_IBKR_project_file\parquet_export.csv"
+        parquet_file_path = 
         
         if not os.path.exists(parquet_file_path):
             print(f"FATAL: Parquet export file not found at {parquet_file_path}")
